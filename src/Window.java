@@ -5,16 +5,12 @@ import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import javax.swing.*;
 
-public class MainMenu extends Frame implements ActionListener, WindowListener {
-    private int count = 0;     // Counter's value
+public class Window extends Frame implements ActionListener, WindowListener {
     private Button onePlayer;
     private Button twoPlayers;
-    private Label oneUp;
-    private ActionListener oneP;
-    private ActionListener twoP;
-    private ActionListener quitP;
+    private int playerCount;
 
-    public MainMenu() {
+    public Window() {
         setLayout(new FlowLayout());
         addWindowListener(this);
         JFrame frame = new JFrame();
@@ -24,6 +20,7 @@ public class MainMenu extends Frame implements ActionListener, WindowListener {
         onePlayer.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent evt) {
+                playerCount = 1;
                 System.out.println("1");
             }
         });
@@ -33,6 +30,7 @@ public class MainMenu extends Frame implements ActionListener, WindowListener {
         twoPlayers.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent evt) {
+                playerCount = 2;
                 System.out.println("2");
             }
         });
@@ -42,10 +40,14 @@ public class MainMenu extends Frame implements ActionListener, WindowListener {
         setVisible(true);
     }
 
+    public int getPlayerCount(){
+        return playerCount;
+    }
+
     // The entry main() method
-    public static void main(String[] args) {
+    public static void main(String []args) {
         // Invoke the constructor to setup the MainMenu, by allocating an instance
-        MainMenu app = new MainMenu();
+        Window app = new Window();
         // or simply "new AWTCounter();" for an anonymous instance
     }
 

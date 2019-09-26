@@ -23,7 +23,7 @@ public class Main {
         FileInputStream in = new FileInputStream("highScore.txt");
         readHighScore(in);
 
-        new MainMenu();
+        new Window();
 
 
 
