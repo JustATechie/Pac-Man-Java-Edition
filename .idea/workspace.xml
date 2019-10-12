@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5c9431c-f0d3-4012-8552-f64826e3632a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OnePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPlayers.java" afterDir="false" />
+    <list default="true" id="d5c9431c-f0d3-4012-8552-f64826e3632a" name="Default Changelist" comment="planning and adding code.&#10;&#10;current plan:&#10;&#10;MainMenu -&gt; Window class&#10;Create separate classes with methods to be called within WindowClass to correctly load MainMenu, 1player, 2players.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pac-Man Java Edition/META-INF/Pac-Man Java Edition.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pac-Man Java Edition/MainMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pac-Man Java Edition/MainMenu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pac-Man Java Edition/MainMenu$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pac-Man Java Edition/MainMenu$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pac-Man Java Edition/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pac-Man Java Edition/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,8 +89,17 @@
       <workItem from="1567791419214" duration="9879000" />
       <workItem from="1568002622689" duration="51000" />
       <workItem from="1568005653524" duration="179000" />
-      <workItem from="1569467373661" duration="382000" />
+      <workItem from="1569467373661" duration="639000" />
+      <workItem from="1570907771992" duration="32000" />
     </task>
+    <task id="LOCAL-00001" summary="planning and adding code.&#10;&#10;current plan:&#10;&#10;MainMenu -&gt; Window class&#10;Create separate classes with methods to be called within WindowClass to correctly load MainMenu, 1player, 2players.">
+      <created>1569467997737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569467997737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +117,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="planning and adding code.&#10;&#10;current plan:&#10;&#10;MainMenu -&gt; Window class&#10;Create separate classes with methods to be called within WindowClass to correctly load MainMenu, 1player, 2players." />
+    <option name="LAST_COMMIT_MESSAGE" value="planning and adding code.&#10;&#10;current plan:&#10;&#10;MainMenu -&gt; Window class&#10;Create separate classes with methods to be called within WindowClass to correctly load MainMenu, 1player, 2players." />
   </component>
 </project>
